@@ -89,7 +89,16 @@ footer {
 }
 
 .aepi-slide {
-  margin: 50px;
-  height: 500px;
+  margin-top: 50px;
   text-align: center;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right.carousel-control, .left.carousel-control {
+  display: none;
 }
