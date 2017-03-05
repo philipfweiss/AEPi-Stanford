@@ -8,11 +8,12 @@ class StaticPagesController < ApplicationController
   def photos
   end
 
-  def past_events
+  def events
   end
 
   def current
   end
+
 
   def alumni
   end
