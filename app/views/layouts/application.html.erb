@@ -30,21 +30,25 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right aepinav" >
-                <li>
-                    <a href="/rush">Rush</a>
-                </li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rush <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="black" href="/past-events">Past Events</a>
+                            <a class="black" href="/past-events">About</a>
                         </li>
                         <li>
-                            <a class="black" href="/photos">Photos</a>
+                            <a class="black" href="/photos">Calendar</a>
+                        </li>
+                        <li>
+                            <a class="black" href="/photos">FAQ</a>
                         </li>
 
                     </ul>
+                </li>
+
+                <li>
+                    <a href="/events">Events</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <b class="caret"></b></a>
@@ -58,11 +62,23 @@
 
                     </ul>
                 </li>
-                <li>
-                    <a href="/about">About</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="black" href="/current">Modern Day</a>
+                        </li>
+                        <li>
+                            <a  class="black" href="/alumni">History</a>
+                        </li>
+
+                    </ul>
                 </li>
                 <li>
                     <a href="/contact-us">Contact Us</a>
+                </li>
+                <li>
+                    <a href="/brothers-only">Brothers Only</a>
                 </li>
 
 
@@ -72,7 +88,7 @@
     </div>
     <!-- /.container -->
 </nav>
-<div class="container home">
+<div class="container-fluid home">
     <%= yield %>
 </div>
 </body>

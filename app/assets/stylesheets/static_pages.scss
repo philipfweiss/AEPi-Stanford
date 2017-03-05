@@ -110,3 +110,19 @@ footer {
 .black {
   color: black !important;
 }
+
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+  max-height: 600px;
+  /*slider height*/
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel .item img {
+  width: 100%;
+  /*img width*/
+}
