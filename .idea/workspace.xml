@@ -42,17 +42,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/rush/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02232143">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state vertical-scroll-proportion="-5.5882354">
+              <caret line="19" column="100" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="100" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/rush/faq.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28869048">
+              <caret line="14" column="128" selection-start-line="14" selection-start-column="128" selection-end-line="14" selection-end-column="128" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +156,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rush/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/rush/faq.html.erb" />
       </list>
     </option>
   </component>
@@ -881,12 +895,12 @@
       <workItem from="1488242218209" duration="5861000" />
       <workItem from="1488249070278" duration="1499000" />
       <workItem from="1488708562684" duration="2648000" />
-      <workItem from="1488711334719" duration="2350000" />
+      <workItem from="1488711334719" duration="2767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12358000" />
+    <option name="totallyTimeSpent" value="12775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="23" width="1120" height="823" extended-state="0" />
@@ -1270,14 +1284,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rush/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02232143">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        <state vertical-scroll-proportion="-5.5882354">
+          <caret line="19" column="100" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="100" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/rush/faq.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28869048">
+          <caret line="14" column="128" selection-start-line="14" selection-start-column="128" selection-end-line="14" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
