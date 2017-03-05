@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'rush/about'
+
+  get 'rush/calendar'
+
+  get 'rush/faq'
+
   get 'static_pages/rush'
 
   get 'home' => 'static_pages#home'
@@ -11,6 +17,11 @@ Rails.application.routes.draw do
   get 'brothers-only' => 'brothers_only#home'
   get 'contact-us' => 'static_pages#contact_us'
   get 'home' => 'static_pages#home'
+  get 'rushfaq' => 'rush#faq'
+  get 'rushcalendar' => 'rush#calendar'
+  get 'aboutrush' => 'rush#about'
+
+
 
   root 'static_pages#home'
 
