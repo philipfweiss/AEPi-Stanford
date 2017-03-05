@@ -23,12 +23,19 @@ body {
 
 header.carousel {
   height: 50%;
+  background-color: transparent !important;
+
+}
+.carousel-control.left, .carousel-control.right {
+  background-image: none !important;
 }
 
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
   height: 100%;
+  background-color: transparent !important;
+
 }
 
 header.carousel .fill {
@@ -81,10 +88,14 @@ footer {
 @media(max-width:767px) {
   .img-portfolio {
     margin-bottom: 15px;
+    background-color: transparent !important;
+
   }
 
   header.carousel .carousel {
     height: 70%;
+    background-color: transparent !important;
+
   }
 }
 
@@ -100,7 +111,7 @@ footer {
 }
 
 .right.carousel-control, .left.carousel-control {
-  display: none;
+  background-color: transparent !important;
 }
 
 .aepinav li a{
@@ -118,11 +129,25 @@ footer {
   height: 100%;
   max-height: 600px;
   /*slider height*/
+  background-color: transparent !important;
+
 }
 .carousel-inner {
   height: 100%;
+  background-color: transparent !important;
+
 }
 .carousel .item img {
   width: 100%;
+  background-color: transparent !important;
+
   /*img width*/
+}
+
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
