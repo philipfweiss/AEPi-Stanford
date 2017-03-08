@@ -1,6 +1,19 @@
-<div class="container" padding-left: 5%; padding-right: 5%; padding-bottom: 5%">
+<div class="container" style="padding-left: 5%; padding-right: 5%; padding-bottom: 5%">
     <% counter = 0%>
     <% @brothers.each do |k,v|%>
+
+    <% if v[:leadership]%>
+            <div class="col-md-6">
+                <div class="wrapper spec">
+                    <div class="image-wrapper">
+                        <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                        <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                        <p class="description"><%= v[:title] ? v[:title] : "Brother" %></p>
+                    </div>
+                </div>
+            </div>
+            <% next %>
+    <% end %>
 
     <% if (counter+=1) % 3 == 1%>
         <div class="col-md-4">

@@ -13,8 +13,8 @@ class StaticPagesController < ApplicationController
 
   def current
     @brothers = {
-        "Spencer  Savitz" => {:title => 'Brother Master' , :year => "'17" },
-        "Matthew Wigler" => {:year => "'19", :title => 'Lieutenant Master | Rush Chair'},
+        "Spencer  Savitz" => {:title => 'Brother Master' , :year => "'17" , :leadership => true},
+        "Matthew Wigler" => {:year => "'19", :title => 'Lieutenant Master | Rush Chair', :leadership => true},
        "Adam Kaplan" => {:year => "'18", :title => 'Brotherhood Chair | Sentinel' },
        "Alex Lubkin" => {:year => "'17"},
        "Andrew Milich" => {:year => "'19"},
