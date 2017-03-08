@@ -1,0 +1,28 @@
+<div class="container" style="background-color: #affff7; padding-left: 5%; padding-right: 5%; padding-bottom: 5%">
+    <% counter = 0%>
+    <% @brothers.each do |k,v|%>
+
+    <% if (counter+=1) % 2 == 1%>
+        <div class="col-md-6">
+            <div class="wrapper spec">
+                <div class="image-wrapper">
+                    <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                    <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                    <p class="description"><%= v[:title] ? v[:title] : "Brother" %></p>
+                </div>
+            </div>
+        </div>
+        <% else %>
+        <div class="col-md-6">
+            <div class="wrapper spec">
+                <div class="image-wrapper">
+                    <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                    <h1 class="name"> <%= k %> <%= v[:year]%></h1>
+                    <p class="description"><%= v[:title] ? v[:title] : "Brother" %></p>
+                </div>
+            </div>
+        </div>
+        <%end %>
+    <% end %>
+</div>
+

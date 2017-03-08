@@ -1,3 +1,106 @@
 // Place all the styles related to the brothers-only controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+// Variables
+$font: 'PT Sans', sans-serif;;
+$bg: linear-gradient(to right, #E75A7C, #141B41);
+$bg_wrapper: linear-gradient(to left, #306BAC, #141B41);
+$white: #fff;
+$black: #212129;
+$grey: #A1A2AD;
+$selection: #272838;
+
+::selection {
+  background: $selection;
+}
+
+.spec {
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+  text-align: center;
+  text-decoration: none;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+//body {
+//  background: $bg;
+//}
+
+.wrapper {
+  max-width: 600px;
+  position: relative;
+  background: $bg_wrapper;
+  color: $white;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 80px 1px $black;
+  .image-wrapper img {
+    width: 225px;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .name {
+    font-size: 2.2em;
+  }
+  .description {
+    color: $grey;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .social-media a i {
+    color: $white;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    transition: 300ms;
+    &:hover {
+      color: $grey;
+      transition: 300ms;
+    }
+  }
+  .follow {
+    background: $white;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    padding: 10px 45px;
+    border-radius: 30px;
+    transition: 300ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:hover {
+      background: $black;
+      color: $white;
+      transition: 300ms;
+    }
+    .fa-twitter {
+      margin-right: 5px;
+      margin-top: 15px;
+    }
+  }
+}
