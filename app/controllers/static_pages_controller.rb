@@ -29,6 +29,7 @@ class StaticPagesController < ApplicationController
        "Matthew Bernstein" => {:year => "'19"},
        "Maxwell Horland" => {:year => "'19", :title => 'Alumni Chair | Scribe'},
        "Michael Spelfogel" => {:year => "'19"},
+        "Noah Bennet" => {:year => "'19'"},
        "Philip Clark" => {:year => "'19"},
        "Philip Weiss" => {:year => "'19", :title => 'Webmaster'},
        "Yonatan Oren" => {:year => "'19"},
