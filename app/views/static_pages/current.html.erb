@@ -7,9 +7,9 @@
 
     <% if v[:leadership]%>
             <div class="col-md-6">
-                <div class="wrapper spec">
+                <div class="wrapper spec dis">
                     <div class="image-wrapper">
-                        <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                        <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
                         <h1 class="name"><%= k %> <%= v[:year]%></h1>
                         <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
                     </div>
@@ -20,9 +20,9 @@
 
     <% if (counter+=1) % 3 == 1%>
         <div class="col-md-4">
-            <div class="wrapper spec">
+            <div class="wrapper spec dis">
                 <div class="image-wrapper">
-                    <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                    <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
                     <h1 class="name"><%= k %> <%= v[:year]%></h1>
                     <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
                 </div>
@@ -30,9 +30,9 @@
         </div>
         <% elsif (counter % 3 == 2) %>
         <div class="col-md-4">
-            <div class="wrapper spec">
-                <div class="image-wrapper">
-                    <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+            <div class="wrapper spec dis">
+                <div class="image-wrapper"">
+                    <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
                     <h1 class="name"> <%= k %> <%= v[:year]%></h1>
                     <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
                 </div>
@@ -41,9 +41,9 @@
 
         </div>
             <div class="col-md-4">
-                <div class="wrapper spec">
+                <div class="wrapper spec dis">
                     <div class="image-wrapper">
-                        <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png"  />
+                        <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
                         <h1 class="name"> <%= k %> <%= v[:year]%></h1>
                         <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
                     </div>
@@ -53,3 +53,8 @@
     <% end %>
 </div>
 
+<script>
+    $('.dis').on('hover', function() {
+
+    })
+</script>
