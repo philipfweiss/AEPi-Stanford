@@ -7,11 +7,14 @@
 
     <% if v[:leadership]%>
             <div class="col-md-6">
-                <div class="wrapper spec dis">
+                <div class="wrapper spec">
                     <div class="image-wrapper">
                         <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
-                        <h1 class="name"><%= k %> <%= v[:year]%></h1>
-                        <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       <div class="dis">
+                           <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                           <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       </div>
+
                     </div>
                 </div>
             </div>
@@ -20,32 +23,38 @@
 
     <% if (counter+=1) % 3 == 1%>
         <div class="col-md-4">
-            <div class="wrapper spec dis">
+            <div class="wrapper spec">
                 <div class="image-wrapper">
                     <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
-                    <h1 class="name"><%= k %> <%= v[:year]%></h1>
-                    <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                   <div class="dis">
+                           <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                           <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       </div>
                 </div>
             </div>
         </div>
         <% elsif (counter % 3 == 2) %>
         <div class="col-md-4">
-            <div class="wrapper spec dis">
-                <div class="image-wrapper"">
+            <div class="wrapper spec">
+                <div class="image-wrapper">
                     <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
-                    <h1 class="name"> <%= k %> <%= v[:year]%></h1>
-                    <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                     <div class="dis">
+                           <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                           <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       </div>
                 </div>
             </div>
         <% elsif (counter % 3 ==  0) %>
 
         </div>
             <div class="col-md-4">
-                <div class="wrapper spec dis">
+                <div class="wrapper spec">
                     <div class="image-wrapper">
                         <img src=<%= v[:image] ? image_path(v[:image]) : "//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" %>  />
-                        <h1 class="name"> <%= k %> <%= v[:year]%></h1>
-                        <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       <div class="dis">
+                           <h1 class="name"><%= k %> <%= v[:year]%></h1>
+                           <p class="description"><%= v[:title] ? v[:title] : "　" %></p>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -54,7 +63,14 @@
 </div>
 
 <script>
-    $('.dis').on('hover', function() {
-
-    })
+    $('.dis').hover(function() {
+        var $this = $(this);
+        $this.data('initialText', $this.text());
+        $this.text("I'm replaced!");
+    },
+        function() {
+        var $this = $(this); // caching $(this)
+        $this.text($this.data('initialText'));
+    }
+    )
 </script>

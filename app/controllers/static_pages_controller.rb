@@ -58,4 +58,7 @@ class StaticPagesController < ApplicationController
   def history
   end
 
+  def google_ver
+  end
+
 end

@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'contact-us' => 'static_pages#contact_us'
   get 'home' => 'static_pages#home'
   get 'rushfaq' => 'rush#faq'
+  get 'google0bbcfc04e845f70e.html' => 'static_pages#google_ver'
   get 'rushcalendar' => 'rush#calendar'
   get 'aboutrush' => 'rush#about'
 
