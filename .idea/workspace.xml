@@ -82,39 +82,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5321508">
-              <caret line="79" column="66" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+            <state vertical-scroll-proportion="-2.764706">
+              <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <marker date="1489360850000" expanded="true" signature="749:905" placeholder="..." />
-                <marker date="1489360850000" expanded="true" signature="832:893" placeholder="{...}" />
+                <marker date="1489360987000" expanded="true" signature="749:905" placeholder="..." />
+                <marker date="1489360987000" expanded="true" signature="832:893" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alumni.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/alumni.html.erb">
+      <file leaf-file-name="events.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/events.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state vertical-scroll-proportion="-3.8823528">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brothers_only.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/brothers_only.scss">
+      <file leaf-file-name="modern.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/modern.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.33254716">
+              <caret line="12" column="698" selection-start-line="12" selection-start-column="692" selection-end-line="12" selection-end-column="698" />
               <folding />
             </state>
           </provider>
@@ -148,11 +148,9 @@
         <option value="$PROJECT_DIR$/app/controllers/brothers_only_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/rush/about.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/modern.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/alumni.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rush/calendar.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/events.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/history.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/brothers_only.scss" />
         <option value="$PROJECT_DIR$/app/views/static_pages/google_ver.html.erb" />
@@ -161,6 +159,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/current.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/events.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/modern.html.erb" />
       </list>
     </option>
   </component>
@@ -966,12 +966,12 @@
       <workItem from="1489015369961" duration="1819000" />
       <workItem from="1489017691826" duration="1124000" />
       <workItem from="1489198949803" duration="1103000" />
-      <workItem from="1489358914976" duration="1247000" />
+      <workItem from="1489358914976" duration="1398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31821000" />
+    <option name="totallyTimeSpent" value="31972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="300" y="23" width="1120" height="821" extended-state="0" />
@@ -1248,13 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/modern.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5294118">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1287,13 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/events.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1406,17 +1392,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5321508">
-          <caret line="79" column="66" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+        <state vertical-scroll-proportion="-2.764706">
+          <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1489360850000" expanded="true" signature="749:905" placeholder="..." />
-            <marker date="1489360850000" expanded="true" signature="832:893" placeholder="{...}" />
+            <marker date="1489360987000" expanded="true" signature="749:905" placeholder="..." />
+            <marker date="1489360987000" expanded="true" signature="832:893" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/events.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8823528">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/modern.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33254716">
+          <caret line="12" column="698" selection-start-line="12" selection-start-column="692" selection-end-line="12" selection-end-column="698" />
+          <folding />
         </state>
       </provider>
     </entry>
