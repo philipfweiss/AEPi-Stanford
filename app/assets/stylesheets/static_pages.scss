@@ -160,3 +160,20 @@ footer {
 .about-para {
   font-size: 16px;
 }
+
+// DEMO Styles
+$polylion-height: 400px;
+
+.polylion polygon {
+}
+
+.polylion {
+  height: $polylion-height;
+
+  > polygon {
+    .no-cssanimations & {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
