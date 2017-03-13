@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" class="polylion">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="polylion">
     <defs>
         <filter id="polycleaner" color-interpolation-filters="sRGB">
             <feComponentTransfer>
@@ -253,3 +253,37 @@
         <polygon points="456,216 446,215 449,208 464,208" style="fill: #682B58" />
     </g>
 </svg>
+
+<script>
+    // Read the article
+    // http://css-tricks.com/polylion
+    $(document).ready(function() {
+
+        var tmax_opts = {
+            delay: 2,
+            repeat: -1,
+            repeatDelay: 0.5,
+            yoyo: true
+        };
+
+        var tmax_tl = new TimelineMax(tmax_opts),
+                polylion_shapes   = $('svg.polylion > g polygon'),
+                polylion_stagger  = 0.00475,
+                polylion_duration = 1.5;
+
+        var polylion_staggerFrom = {
+            scale: 0,
+            opacity: 0,
+            transformOrigin: 'center center',
+        };
+
+        var polylion_staggerTo = {
+            opacity: 1,
+            scale: 1,
+            ease: Elastic.easeInOut
+        };
+
+        tmax_tl.staggerFromTo(polylion_shapes, polylion_duration, polylion_staggerFrom, polylion_staggerTo, polylion_stagger, 0);
+    });
+
+</script>

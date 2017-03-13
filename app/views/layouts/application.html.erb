@@ -88,18 +88,14 @@
 </nav>
 <div class="container-fluid home">
     <%= yield %>
-    <footer>
-        <div class="row">
-            <div class="col-md-12" style="position: absolute;">
-                <div style="text-align: center;">
-                    <%= render 'layouts/lion'%>
-                </div>
-
-                <p style="margin-top: -30px; text-align: center;">Website Copyright &copy; Sigma Tau AEPi <br> <a href="/contact-us">Contact Us</a>
-                </p>
-            </div>
+    <div>
+        <div style="text-align: center; margin-left: -125px;">
+            <%= render 'layouts/lion'%>
         </div>
-    </footer>
+
+        <p style="margin-top: -30px; text-align: center;">Website Copyright &copy; Sigma Tau AEPi <br> <a href="/contact-us">Contact Us</a>
+        </p>
+    </div>
 </div>
 
 </body>
