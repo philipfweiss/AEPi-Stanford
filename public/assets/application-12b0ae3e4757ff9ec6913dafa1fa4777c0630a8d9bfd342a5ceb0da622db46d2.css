@@ -1,3 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+/* line 16, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.spec {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 29, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 33, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 41, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper {
+  max-width: 600px;
+  position: relative;
+  background: linear-gradient(to left, #306BAC, #141B41);
+  opacity: 1;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 80px 1px #212129;
+}
+/* line 46, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper :hover {
+  opacity: .8 !important;
+}
+/* line 57, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .image-wrapper img {
+  width: 220px;
+  height: 225px;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 66, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .name {
+  font-size: 1.4em;
+}
+/* line 69, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .description {
+  color: #A1A2AD;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+/* line 74, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .social-media a i {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  transition: 300ms;
+}
+/* line 81, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .social-media a i:hover {
+  color: #A1A2AD;
+  transition: 300ms;
+}
+/* line 86, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .follow {
+  background: #fff;
+  color: #212129;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  padding: 10px 45px;
+  border-radius: 30px;
+  transition: 300ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 99, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .follow:hover {
+  background: #212129;
+  color: #fff;
+  transition: 300ms;
+}
+/* line 104, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/brothers_only.scss */
+.wrapper .follow .fa-twitter {
+  margin-right: 5px;
+  margin-top: 15px;
+}
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -8953,6 +9054,43 @@ footer {
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+/* line 155, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.contact-table {
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* line 160, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.about-para {
+  font-size: 16px;
+}
+
+/* line 170, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.polylion {
+  height: 400px;
+}
+/* line 174, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.no-cssanimations .polylion > polygon {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* line 181, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.hover-no-display {
+  display: inline;
+}
+
+/* line 185, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.click-display {
+  display: none;
+}
+
+/* line 189, /Users/philipfweiss/aepi/AEPi_Stanford/app/assets/stylesheets/static_pages.scss */
+.bio-text {
+  font-size: 15px;
+  line-height: 25px;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
