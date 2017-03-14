@@ -13,7 +13,7 @@ class StaticPagesController < ApplicationController
 
   def current
 
-    elliot_k_bio = "Elliot Kaufman is a junior from Canada who loves America. Elliot will intern at National Review in New York City this summer, and he hopes to write for a living. His favorite TV show is The Bachelor and his favorite book is Ecclesiastes. "
+    elliot_k_bio = "Elliot Kaufman is a junior from Canada who loves America. Elliot will intern at the National Review in New York City this summer, and he hopes to write for a living. His favorite TV show is The Bachelor and his favorite book is Ecclesiastes. "
     matthew_w_bio = "Bio Forthcoming"
     dylan_h_bio = "Percussionist, composer, CS person, theatergoer, space enthusiast, panda lover. AMA."
     zach_b_bio = "Zach Blum tried to crop a girl out of his profile picture on August 12, 2013, and accidentally reposted different-sized versions of the same photograph a whopping 4 times. He has yet to remedy this mistake. Zach responds to his first or last name, because half of the jewish men on Stanford’s campus are named Zach. He currently only has six cats, but is looking to expand."
@@ -35,7 +35,7 @@ class StaticPagesController < ApplicationController
     kiran_s_bio = "Kiran weighs probably 120lbs soaking wet. A true survivor, he wades courageously day-by-day through the murky waters of Stanford’s overpowering liberal culture. When he isn’t busy overcoming adversity, Kiran acts as a beacon of mutual helpfulness for his brothers and is always ready to take one for the team. Also he maybe does Model UN? He would like to apologize for the confusing spelling of his last name. Ask him about his favorite Thomas Jefferson quotes. Let’s go, Sharks!"
     noah_b_bio = "Noah Bennett is a Sophomore taking a brief break from his quest to find a travelling circus that will take him in to pursue a BS in Product Design. He answers to “Noah”, “2yung”, and/or “Mr. WorldWide”. In his free time, Noah is very active in Stanford’s theatre community, especially the Stanford Shakespeare Company. He responds favorably to baked goods and those videos of two animals from different species who are friends with each other. Unfortunately he does not drink coffee. Ask him about his bathrobe collection. #AEΠisLove #AEΠisLife"
     philip_c_bio = "Philip is a sophomore majoring in Management Science & Engineering and minoring in Computer Science. He enjoys thinking about national security, capital intensive technology, and social choice theory."
-    philip_w_bio = "Bio Forthcoming"
+    philip_w_bio  =  "Philip Weiss is a Sophomore who is double majoring in Computer Science and Chinese Language. He enjoys web development, chess, swimming, music, and triple steak burritos from Chipotle."
     yonatan_o_bio = "Lost at sea... let us know if you find him!"
 
     @brothers = {
