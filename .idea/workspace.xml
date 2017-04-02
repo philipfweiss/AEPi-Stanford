@@ -35,8 +35,8 @@
       <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48414984">
-              <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.57060516">
+              <caret line="68" column="92" selection-start-line="68" selection-start-column="92" selection-end-line="68" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -953,12 +953,12 @@
       <workItem from="1489017691826" duration="1124000" />
       <workItem from="1489198949803" duration="1103000" />
       <workItem from="1489358914976" duration="15301000" />
-      <workItem from="1491174267407" duration="654000" />
+      <workItem from="1491174267407" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46529000" />
+    <option name="totallyTimeSpent" value="46591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="300" y="23" width="1120" height="821" extended-state="0" />
@@ -1399,8 +1399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48414984">
-          <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.57060516">
+          <caret line="68" column="92" selection-start-line="68" selection-start-column="92" selection-end-line="68" selection-end-column="92" />
           <folding />
         </state>
       </provider>

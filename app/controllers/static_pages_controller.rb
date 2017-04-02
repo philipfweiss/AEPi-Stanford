@@ -66,7 +66,7 @@ class StaticPagesController < ApplicationController
        "Andrew Milich" => {:bio => andrew_m_bio, :image => 'brothers/andrew_m.jpg', :year => "'19"},
        "Ben Gillman" => {:bio => ben_g_bio, :image => 'brothers/ben_g.jpg', :year => "'19", :title => 'Pledgemaster' },
        "Brandon Solis" => {:bio => brandon_s_bio, :image => 'brothers/brandon_s.jpg',  :year => "'17"},
-       "Dylan Hunn" => {:bio => dylan_h_bio, :image => 'brothers/dylan_h.jpg', :year => "'19"},
+       "Dylan Hunn" => {:bio => dylan_h_bio, :image => 'brothers/dylan_h.jpg', :year => "'18"},
        "Eduardo Perez" => {:bio => eduardo_p_bio, :image => 'brothers/eduardo_p.jpg', :year => "'17", :title => 'Exchequer'},
        "Elliot Kaufman" => {:bio => elliot_k_bio, :image => 'brothers/elliot_k.jpg', :year => "'18", :title => 'Jewish Identity Chair'},
        "Gabe Rosen" => {:bio => gabe_r_bio, :image => 'brothers/gabe_r.jpg', :year => "'19", :title => 'Social Chair'},
