@@ -15,7 +15,7 @@ class StaticPagesController < ApplicationController
 
     elliot_k_bio = "Elliot Kaufman is a junior from Canada who loves America. Elliot will intern at The National Review in New York City this summer, and he hopes to write for a living. His favorite TV show is The Bachelor, and his favorite book is Ecclesiastes. "
 
-    matthew_w_bio = "Matthew Wigler is still working on his time management skills."
+    matthew_w_bio = "Matthew Wigler is a sophomore from Great Neck, New York. He once made up his own news outlet in order to get access to Trump white house's press-briefings. We think Matt is far more deserving than Politico, anyways. "
 
     dylan_h_bio = "Percussionist, composer, CS person, theatergoer, space enthusiast, panda lover. AMA."
 
