@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'static_pages/rush'
 
   get 'home' => 'static_pages#home'
-  get 'rush' => 'static_pages#rush'
+  get 'rush' => 'static_pages#aboutrush'
   get 'photos' => 'static_pages#photos'
   get 'events' => 'static_pages#events'
   get 'history' => 'static_pages#history'
