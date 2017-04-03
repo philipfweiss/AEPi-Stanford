@@ -27,7 +27,7 @@ class StaticPagesController < ApplicationController
 
     eduardo_p_bio = "Eduardo “Eddie” Perez is a senior member of AEPi. He is by far the most observant Jew in the chapter, though he makes an annual pilgrimage to Cabo San Lucas to authentically celebrate his Hispanic ancestry. In his free time, Mr. Perez can be found wandering the barren hills of southern California searching for and taming wild mountain lions by speaking to them in Spanish. He personally identifies with all three protagonists from the critically-acclaimed Cartoon Network sitcom, “Ed, Edd n Eddy” and has petitioned the network multiple times to retroactively add the Oxford comma to the title. Fastest chugger west of the Mississippi."
 
-    alex_l_bio = "Alex Lubkin has memorized every line of dialogue from every single one of the 114 Tom & Jerry short films. At least that's what he thinks. Please feel free to go up to him and touch his beard. That’s what it’s there for."
+    alex_l_bio = "Alex Lubkin has memorized every line of dialogue from every single one of the 114 Tom & Jerry short films. At least that is what he thinks. Please feel free to go up to him and touch his beard. Thats what its there for."
 
     andrew_m_bio = "Andrew Milich is a sophomore majoring in computer science. He is from New York, NY and is interested in aerospace, operating systems, and hacking."
 

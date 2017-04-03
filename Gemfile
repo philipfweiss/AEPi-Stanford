@@ -8,6 +8,8 @@ gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.0.0'
 gem 'coffee-rails', '4.2.1'
 gem 'greensock-rails'
+gem 'lightbox2-rails'
+
 gem 'jquery-rails', '4.1.1'
 gem 'jquery-turbolinks'
 
