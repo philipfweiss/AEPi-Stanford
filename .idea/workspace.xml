@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7058825">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.590379">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -55,18 +55,18 @@
       <file leaf-file-name="photos.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/photos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666">
-              <caret line="13" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.882353">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/events.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.409621">
-              <caret line="191" column="10" selection-start-line="191" selection-start-column="10" selection-end-line="191" selection-end-column="10" />
+            <state vertical-scroll-proportion="-6.980392">
+              <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/photos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rush/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/events.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -891,12 +891,12 @@
       <workItem from="1489017691826" duration="1124000" />
       <workItem from="1489198949803" duration="1103000" />
       <workItem from="1489358914976" duration="15301000" />
-      <workItem from="1491174267407" duration="7416000" />
+      <workItem from="1491174267407" duration="7498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53291000" />
+    <option name="totallyTimeSpent" value="53373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="476" y="23" width="1120" height="837" extended-state="0" />
@@ -1330,31 +1330,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7058825">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/photos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="13" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/events.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.409621">
-          <caret line="191" column="10" selection-start-line="191" selection-start-column="10" selection-end-line="191" selection-end-column="10" />
+        <state vertical-scroll-proportion="-6.980392">
+          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#3;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/photos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.882353">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.590379">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
