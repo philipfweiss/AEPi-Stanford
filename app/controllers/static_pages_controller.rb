@@ -70,7 +70,7 @@ class StaticPagesController < ApplicationController
        "Eduardo Perez" => {:bio => eduardo_p_bio, :image => 'brothers/eduardo_p.jpg', :year => "'17", :title => 'Exchequer'},
        "Elliot Kaufman" => {:bio => elliot_k_bio, :image => 'brothers/elliot_k.jpg', :year => "'18", :title => 'Jewish Identity Chair'},
        "Gabe Rosen" => {:bio => gabe_r_bio, :image => 'brothers/gabe_r.jpg', :year => "'19", :title => 'Social Chair'},
-       "Jonas Shamorony" => {:bio => jonas_s_bio, :image => 'brothers/jonas_s.jpg', :year => "'18"},
+       "Jonas Shomorony" => {:bio => jonas_s_bio, :image => 'brothers/jonas_s.jpg', :year => "'18"},
        "Kiran Sridhar" => {:bio => kiran_s_bio, :image => 'brothers/kiran_s.jpg', :year => "'19"},
        "Matthew Bernstein" => {:bio => matt_b_bio, :image => 'brothers/matthew_b.jpg', :year => "'19"},
        "Maxwell Horland" => {:bio => max_h_bio, :image => 'brothers/maxwell_h.jpg', :year => "'19", :title => 'Alumni Chair | Scribe'},
