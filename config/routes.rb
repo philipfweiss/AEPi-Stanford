@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'photos/cabo2017'
+
   get 'rush/about'
 
   get 'rush/calendar'
@@ -13,7 +15,6 @@ Rails.application.routes.draw do
   get 'events' => 'static_pages#events'
   get 'history' => 'static_pages#history'
   get 'modern' => 'static_pages#modern'
-
   get 'current' => 'static_pages#current'
   get 'alumni' => 'static_pages#alumni'
   get 'about' => 'static_pages#about'
