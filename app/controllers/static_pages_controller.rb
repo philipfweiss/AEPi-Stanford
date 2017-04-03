@@ -27,7 +27,7 @@ class StaticPagesController < ApplicationController
 
     eduardo_p_bio = "Eduardo “Eddie” Perez is a senior member of AEPi. He is by far the most observant Jew in the chapter, though he makes an annual pilgrimage to Cabo San Lucas to authentically celebrate his Hispanic ancestry. In his free time, Mr. Perez can be found wandering the barren hills of southern California searching for and taming wild mountain lions by speaking to them in Spanish. He personally identifies with all three protagonists from the critically-acclaimed Cartoon Network sitcom, “Ed, Edd n Eddy” and has petitioned the network multiple times to retroactively add the Oxford comma to the title. Fastest chugger west of the Mississippi."
 
-    alex_l_bio = "Alex Lubkin clips his toenails regularly and has the words “Intellectual Savagery” tattooed across his upper back. He has memorized every line of dialogue from every single one of the 114 Tom & Jerry short films. Please feel free to go up to him and touch his beard. That’s what it’s there for."
+    alex_l_bio = "Alex Lubkin has memorized every line of dialogue from every single one of the 114 Tom & Jerry short films. At least that's what he thinks. Please feel free to go up to him and touch his beard. That’s what it’s there for."
 
     andrew_m_bio = "Andrew Milich is a sophomore majoring in computer science. He is from New York, NY and is interested in aerospace, operating systems, and hacking."
 
@@ -79,7 +79,7 @@ class StaticPagesController < ApplicationController
        "Philip Clark" => {:bio => philip_c_bio, :image => 'brothers/philip_c.jpg', :year => "'19"},
        "Philip Weiss" => {:bio => philip_w_bio, :image => 'brothers/philip_w.jpg', :year => "'19", :title => 'Webmaster'},
        "Yonatan Oren" => {:bio => yonatan_o_bio, :image => 'brothers/yonatan_o.jpg', :year => "'19"},
-       "Zach Blum" => {:bio => zach_b_bio, :image => 'brothers/zach_b.jpg', :year => "'18"},
+       "Zach Blum" => {:bio => zach_b_bio, :image => 'brothers/zach_b.jpg', :year => "'17"},
        # "Zach Lawrence" => {:image => 'brothers/zach_l.jpg', :year => "'18"},
        "Zach Nunn" => {:bio => zach_n_bio, :image => 'brothers/zach_n.jpg', :year => "'19"},
 
