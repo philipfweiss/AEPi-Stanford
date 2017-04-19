@@ -122,6 +122,12 @@ footer {
   color: black !important;
 }
 
+@media screen and (max-width: 700px) {
+  .black {
+    color: white !important;
+  }
+}
+
 
 .carousel,
 .item,
