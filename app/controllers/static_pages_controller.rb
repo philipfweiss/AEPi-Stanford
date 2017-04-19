@@ -107,4 +107,7 @@ class StaticPagesController < ApplicationController
   def google_ver
   end
 
+  def lunch
+  end
+
 end

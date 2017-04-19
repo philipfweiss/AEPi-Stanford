@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   get 'rushfaq' => 'rush#faq'
   get 'google0bbcfc04e845f70e.html' => 'static_pages#google_ver'
   get 'rushcalendar' => 'rush#calendar'
+  get 'lunch' => 'static_pages#lunch'
   get 'aboutrush' => 'rush#about'
 
 
