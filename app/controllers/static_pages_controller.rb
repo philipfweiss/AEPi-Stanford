@@ -71,6 +71,7 @@ class StaticPagesController < ApplicationController
     max_a_bio = "Max Arsenault wakes up most mornings feeling like P. Diddy. His aryan eyes look like shining crystalline pools of pure water. Sometimes they get kinda red though. It’s inexplicable really. A mathematician in training, Max is also a budding artist, who practices his fingerpainting on a daily basis."
     sam_l_bio = "Sam Lurye likes eggs. "
     paul_w_bio = "Paul actually sent in his bio (which got lost), so Noah isnt writing anything mean. "
+    james_s_bio = "James is still a pledge."
 
 
     @brothers = {
@@ -102,6 +103,7 @@ class StaticPagesController < ApplicationController
         "Daniel Alvorado" => {:bio => daniel_a_bio ,:image => 'brothers/daniel_a.png', :year => "'20", :title => 'Lieutenant Exchequer'},
         "Joe Kaperst" => {:bio => joe_k_bio, :image => 'brothers/joe_k.png', :year => "'20", :title => 'Lieutenant Social Chair'},
         "John Cameron" => {:bio => john_d_bio, :image => 'brothers/john_d.png', :year => "'20"},
+        "James Savoldelli" => {:bio => james_s_bio, :image => 'brothers/james_s.png', :year => "'20"},
         "Michael Ocon Jr" => {:bio => michael_o_bio, :image => 'brothers/michael_o.png', :year => "'20"},
         "Shawn Ahdout" => {:bio => shawn_a_bio, :image => 'brothers/shawn_a.png', :year => "'20", :title => 'Alumni Chair'},
         "Jack Akerman" => {:bio => jack_a_bio, :image => 'brothers/jack_a.png', :year => "'20"},
