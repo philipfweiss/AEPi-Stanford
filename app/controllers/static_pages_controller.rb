@@ -100,7 +100,7 @@ class StaticPagesController < ApplicationController
        "Zach Nunn" => {:bio => zach_n_bio, :image => 'brothers/zach_n.jpg', :year => "'19", :title => 'Scribe'},
        "Aaron Marks" => {:bio => aaron_m_bio, :image => 'brothers/aaron_m.png', :year => "'20", :title => 'Pledge Chair'},
        "Cade May" => {:bio => cade_m_bio, :image => 'brothers/cade_m.png', :year => "'19"},
-        "Daniel Alvorado" => {:bio => daniel_a_bio ,:image => 'brothers/daniel_a.png', :year => "'20", :title => 'Lieutenant Exchequer'},
+        "Daniel Alvarado" => {:bio => daniel_a_bio ,:image => 'brothers/daniel_a.png', :year => "'20", :title => 'Lieutenant Exchequer'},
         "Joe Kaperst" => {:bio => joe_k_bio, :image => 'brothers/joe_k.png', :year => "'20", :title => 'Lieutenant Social Chair'},
         "John Cameron" => {:bio => john_d_bio, :image => 'brothers/john_d.png', :year => "'20"},
         "James Savoldelli" => {:bio => james_s_bio, :image => 'brothers/james_s.png', :year => "'20"},

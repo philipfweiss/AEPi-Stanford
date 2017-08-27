@@ -65,8 +65,8 @@
       <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5225352">
-              <caret line="105" column="100" selection-start-line="105" selection-start-column="100" selection-end-line="105" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.33239436">
+              <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -963,12 +963,12 @@
       <workItem from="1491174267407" duration="10741000" />
       <workItem from="1492582735815" duration="2131000" />
       <workItem from="1492906434741" duration="42000" />
-      <workItem from="1503870697651" duration="5166000" />
+      <workItem from="1503870697651" duration="5264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63955000" />
+    <option name="totallyTimeSpent" value="64053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="25" width="1149" height="837" extended-state="0" />
@@ -1413,8 +1413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5225352">
-          <caret line="105" column="100" selection-start-line="105" selection-start-column="100" selection-end-line="105" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.33239436">
+          <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
           <folding />
         </state>
       </provider>
