@@ -92,7 +92,7 @@ class StaticPagesController < ApplicationController
        "Michael Spelfogel" => {:bio => michael_s_bio, :image => 'brothers/michael_s.jpg', :year => "'19", :title => 'Social Chair'},
         "Noah Bennett" => {:bio => noah_b_bio, :image => 'brothers/noah_b.jpg', :year => "'19", :title => 'Location | L. Social Chair'},
        "Philip Clark" => {:bio => philip_c_bio, :image => 'brothers/philip_c.jpg', :year => "'19"},
-       "Philip Weiss" => {:bio => philip_w_bio, :image => 'brothers/philip_w.jpg', :year => "'19", :title => '{Brotherhood, Web} Master'},
+       "Philip Weiss" => {:bio => philip_w_bio, :image => 'brothers/philip_w.jpg', :year => "'19", :title => '{Brotherhood, Web} Chair'},
        "Yonatan Oren" => {:bio => yonatan_o_bio, :image => 'brothers/yonatan_o.jpg', :year => "'19"},
        # "Zach Blum" => {:bio => zach_b_bio, :image => 'brothers/zach_b.jpg', :year => "'17"},
        # "Zach Lawrence" => {:image => 'brothers/zach_l.jpg', :year => "'18"},
