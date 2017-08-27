@@ -25,15 +25,16 @@
 
 <div class="container" style="padding-left: 5%; padding-right: 5%; padding-bottom: 5%">
     <br>
-    <div style="margin-bottom: -5px;" class="alert alert-success">To Contact Us: <a href="/contact-us"> Click Here. </a> <br> Click on boxes below to read bios!</div>
+    <div style="margin-bottom: -5px;" class="alert alert-success">
+
+        To get to the home page, <a href="/home">Click Here</a> <br>
+        To Contact Us: <a href="/contact-us"> Click Here. </a> <br> Click on boxes below to read bios!</div>
     <hr>
 
 
 
-    <% counter = 0%>
-    <% @brothers.each do |k,v|%>
-
-    <% if v[:leadership]%>
+    <% @brothers.sort.each do |k,v|%>
+        <% if v[:leadership]%>
             <div id="<%=k.gsub(/\s+/, "")%>" class="col-md-6">
                 <div class="wrapper spec click ">
                     <div class="image-wrapper click-hide">
@@ -51,7 +52,13 @@
                 </div>
             </div>
             <% next %>
+        <% end %>
     <% end %>
+
+    <% counter = 0%>
+
+    <% @brothers.sort.each do |k,v|%>
+    <% next if v[:leadership] %>
 
     <% if (counter+=1) % 3 == 1%>
         <div id="<%=k.gsub(/\s+/, "")%>" class="col-md-4">
