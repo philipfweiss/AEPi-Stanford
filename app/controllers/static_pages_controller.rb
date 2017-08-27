@@ -57,32 +57,60 @@ class StaticPagesController < ApplicationController
 
     yonatan_o_bio = "Lost at sea... Let us know if you find him!"
 
+    aaron_m_bio = "Aaron Marks' eyes are precisely 2cm apart from one another. He has 11 toes, is from Los Angeles California, refuses to eat food of non-asian origin, and is a cosplay enthusiast. He always plugs merch™. (Only one of those facts is incorrect - try to find out which!) Secretary of Education of the #VapeNation."
+    cade_m_bio = "Cade May is Jewish! :O Famous for his firm stance and flawless record of upholding his commitments, Cade joined AEPi in the fall of his freshman year and has been an instrumental force in the organization’s vitality and longevity ever since. He will not eat any food presented to him that is not covered by a layer of Sriracha that is at least 3mm thick."
+    daniel_a_bio = "Daniel Alvarado is from West Covena, and serves as Sigma Tau's Resident White Girl™. His bedroom features a large self-portrait, mounted above his bed. An avid Dodgers fan, Daniel's favorite restaurant is Starbz (in West Covena) where he can be found almost daily, fraternizing with the common folk. He is from West Covena. His birthday is probably in June - idk we forgot."
+    joe_k_bio = "Joe Kaperst is a collector and breeder of rare South American tropical birds. Famously known by his nickname `The Geezer`, Joe pioneered the now famous Finland Does Not Exist internet theory, garnering both worldwide acclaim and notoriety. The headband is literally fused to his skull. "
+    john_d_bio = "JDRC’s hair was finely sculpted and cast in bronze 15 years ago, and has not changed shape since. A fine young politician in the making, John spends much of his time sharing his views and being immediately flocked with new friends. In fact, John is a direct descendent of Stanford professor and former Secretary of State Condoleezza Rice [citation needed]."
+    michael_o_bio = "Michael Ocon Jr is an Arleigh Burke-class destroyer in the United States Navy. He is part of the Twentieth Fleet, and has his home port in Los Angeles California. He was designed as a multimission destroyer equipped with state-of-the-art Aegis radar technology and surface-to-air missiles. His hull and structure was designed to have a reduced radar cross section. He's also v good @ flipcup."
+    shawn_a_bio = "Shawn does not live in a small house made of toothpicks and drinking straws. He once set the world record for most polaroid selfies taken whilst chugging a carton of milk. He takes Jewish traditions very seriously, and carries a lulav with him everywhere, just in case."
+    jack_a_bio = "Jack Ackerman is a patriotic hero who was tragically assassinated in November 1963. He died serving his country (not sure which one though)."
+    jason_g_bio = "Jason Ginsberg is an energetic eight-legged entrepreneur. No matter what he says, this guy is 100% definitely a freshman. As of July 2017, he has sixteen followers on twitter. His favorite flavor of ice cream is none of your business."
+    ryan_k_bio = "Ryan Kalili literally never had to do homework until he got to college. Like, ever. A graduate of the prestigious CrossRoads institution in Los Angeles, Ryan is a freewheeling free thinker but is unfortunately deathly afraid of moss. His favorite song is Sk8er Boi by Avril Lavigne. He has a tattoo of some of the lyrics, but he won’t tell us which or where. His Big is The Best Person Ever™."
+    max_m_bio  = "Max Minshull (Max #3) is the venerated gentile giant of AEPi. Unbeknownst to most, Mad Max Fury Road was inspired by a five-minute tour of Minshull’s garage. Minshull is the model of the modern major general; the physical incarnation of Intellectual–Savagery."
+    max_a_bio = "Max Arsenault wakes up most mornings feeling like P. Diddy. His aryan eyes look like shining crystalline pools of pure water. Sometimes they get kinda red though. It’s inexplicable really. A mathematician in training, Max is also a budding artist, who practices his fingerpainting on a daily basis."
+    sam_l_bio = "Sam Lurye likes eggs. "
+    paul_w_bio = "Paul actually sent in his bio (which got lost), so Noah isn't writing anything mean. "
+
 
     @brothers = {
-        "Spencer  Savitz" => {:bio => spencer_s_bio, :image => 'brothers/spencer_s.jpg', :title => 'Brother Master' , :year => "'17" , :leadership => true},
-        "Matthew Wigler" => {:bio => matthew_w_bio, :image => 'brothers/matthew_w.jpg', :year => "'19", :title => 'Lieutenant Master | Rush Chair', :leadership => true},
-       "Adam Kaplan" => {:bio => adam_k_bio, :image => 'brothers/adam_k.jpg', :year => "'18", :title => 'Brotherhood Chair' },
-       "Alex Lubkin" => {:bio => alex_l_bio, :image => 'brothers/alex_l.jpg', :year => "'17"},
-       "Andrew Milich" => {:bio => andrew_m_bio, :image => 'brothers/andrew_m.jpg', :year => "'19"},
-       "Ben Gillman" => {:bio => ben_g_bio, :image => 'brothers/ben_g.jpg', :year => "'19", :title => 'Pledgemaster' },
-       "Brandon Solis" => {:bio => brandon_s_bio, :image => 'brothers/brandon_s.jpg',  :year => "'17"},
+        # "Spencer  Savitz" => {:bio => spencer_s_bio, :image => 'brothers/spencer_s.jpg', :title => 'Brother Master' , :year => "'17" , :leadership => true},
+        "Adam Kaplan" => {:bio => adam_k_bio, :image => 'brothers/adam_k.jpg', :year => "'18", :title => "Brother Master", :leadership => true },
+        "Matthew Wigler" => {:bio => matthew_w_bio, :image => 'brothers/matthew_w.jpg', :year => "'19", :title => 'Lieutenant Master', :leadership => true},
+       # "Alex Lubkin" => {:bio => alex_l_bio, :image => 'brothers/alex_l.jpg', :year => "'17"},
+       "Andrew Milich" => {:bio => andrew_m_bio, :image => 'brothers/andrew_m.jpg', :year => "'19", :title => "Sentinel"},
+       "Ben Gillman" => {:bio => ben_g_bio, :image => 'brothers/ben_g.jpg', :year => "'19"},
+       # "Brandon Solis" => {:bio => brandon_s_bio, :image => 'brothers/brandon_s.jpg',  :year => "'17"},
        "Dylan Hunn" => {:bio => dylan_h_bio, :image => 'brothers/dylan_h.jpg', :year => "'18"},
-       "Eduardo Perez" => {:bio => eduardo_p_bio, :image => 'brothers/eduardo_p.jpg', :year => "'17", :title => 'Exchequer'},
-       "Elliot Kaufman" => {:bio => elliot_k_bio, :image => 'brothers/elliot_k.jpg', :year => "'18", :title => 'Jewish Identity Chair'},
-       "Gabe Rosen" => {:bio => gabe_r_bio, :image => 'brothers/gabe_r.jpg', :year => "'19", :title => 'Social Chair'},
+       # "Eduardo Perez" => {:bio => eduardo_p_bio, :image => 'brothers/eduardo_p.jpg', :year => "'17", :title => 'Exchequer'},
+       "Elliot Kaufman" => {:bio => elliot_k_bio, :image => 'brothers/elliot_k.jpg', :year => "'18"},
+       "Gabe Rosen" => {:bio => gabe_r_bio, :image => 'brothers/gabe_r.jpg', :year => "'19"},
        "Jonas Shomorony" => {:bio => jonas_s_bio, :image => 'brothers/jonas_s.jpg', :year => "'18"},
        "Kiran Sridhar" => {:bio => kiran_s_bio, :image => 'brothers/kiran_s.jpg', :year => "'19"},
        "Matthew Bernstein" => {:bio => matt_b_bio, :image => 'brothers/matthew_b.jpg', :year => "'19"},
-       "Maxwell Horland" => {:bio => max_h_bio, :image => 'brothers/maxwell_h.jpg', :year => "'19", :title => 'Alumni Chair | Scribe'},
-       "Michael Spelfogel" => {:bio => michael_s_bio, :image => 'brothers/michael_s.jpg', :year => "'19"},
-        "Noah Bennett" => {:bio => noah_b_bio, :image => 'brothers/noah_b.jpg', :year => "'19"},
+       "Maxwell Horland" => {:bio => max_h_bio, :image => 'brothers/maxwell_h.jpg', :year => "'19", :title => 'Exchequer'},
+       "Michael Spelfogel" => {:bio => michael_s_bio, :image => 'brothers/michael_s.jpg', :year => "'19", :title => 'Social Chair'},
+        "Noah Bennett" => {:bio => noah_b_bio, :image => 'brothers/noah_b.jpg', :year => "'19", :title => 'Location | L. Social Chair'},
        "Philip Clark" => {:bio => philip_c_bio, :image => 'brothers/philip_c.jpg', :year => "'19"},
-       "Philip Weiss" => {:bio => philip_w_bio, :image => 'brothers/philip_w.jpg', :year => "'19", :title => 'Webmaster'},
+       "Philip Weiss" => {:bio => philip_w_bio, :image => 'brothers/philip_w.jpg', :year => "'19", :title => '{Brotherhood, Web} Master'},
        "Yonatan Oren" => {:bio => yonatan_o_bio, :image => 'brothers/yonatan_o.jpg', :year => "'19"},
-       "Zach Blum" => {:bio => zach_b_bio, :image => 'brothers/zach_b.jpg', :year => "'17"},
+       # "Zach Blum" => {:bio => zach_b_bio, :image => 'brothers/zach_b.jpg', :year => "'17"},
        # "Zach Lawrence" => {:image => 'brothers/zach_l.jpg', :year => "'18"},
-       "Zach Nunn" => {:bio => zach_n_bio, :image => 'brothers/zach_n.jpg', :year => "'19"},
-
+       "Zach Nunn" => {:bio => zach_n_bio, :image => 'brothers/zach_n.jpg', :year => "'19", :title => 'Scribe'},
+       "Aaron Marks" => {:bio => aaron_m_bio, :image => 'brothers/aaron_m.png', :year => "'20", :title => 'Pledge Chair'},
+       "Cade May" => {:bio => cade_m_bio, :image => 'brothers/cade_m.png', :year => "'19"},
+        "Daniel Alvorado" => {:bio => daniel_a_bio ,:image => 'brothers/daniel_a.png', :year => "'20", :title => 'Lieutenant Exchequer'},
+        "Joe Kaperst" => {:bio => joe_k_bio, :image => 'brothers/joe_k.png', :year => "'20", :title => 'Lieutenant Social Chair'},
+        "John Rice-Cameron" => {:bio => john_d_bio, :image => 'brothers/john_d.png', :year => "'20"},
+        "Michael Ocon Jr." => {:bio => michael_o_bio, :image => 'brothers/michael_o.png', :year => "'20"},
+        "Shawn Ahdout" => {:bio => shawn_a_bio, :image => 'brothers/shawn_a.png', :year => "'20", :title => 'Alumni Chair'},
+        "Jack Ackerman" => {:bio => jack_a_bio, :image => 'brothers/jack_a.png', :year => "'20"},
+        "Jason Ginsberg" => {:bio => jason_g_bio, :image => 'brothers/jason_g.png', :year => "'19"},
+        "Ryan Kalili" => {:bio => ryan_k_bio, :image => 'brothers/ryan_k.png', :year => "'20", :title => 'Lieutenant Social Chair'},
+        "Max Minshull" => {:bio => max_m_bio, :image => 'brothers/max_m.png', :year => "'20", :title => 'Jewish Life Chair'},
+        "Max Arsenault" => {:bio => max_a_bio, :image => 'brothers/max_a.png', :year => "'19"},
+        "Sam Lurye" => {:bio => sam_l_bio, :image => 'brothers/sam_l.png', :year => "'20", :title => '{Rush, Philanthropy} Chair'},
+        "Paul Walter" => {:bio => paul_w_bio, :image => 'brothers/paul_w.png', :year => "'20"},
     }
     @wat = @brothers["Adam Kaplan"][:year]
   end

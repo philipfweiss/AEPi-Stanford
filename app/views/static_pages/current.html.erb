@@ -102,8 +102,9 @@
 </div>
 
 <script>
-    var ready = function() {
+    console.log("hello!");
 
+    var ready = function() {
         <% @brothers.each do |k,v| %>
             $('#<%=k.gsub(/\s+/, "")%>').on('click', function() {
                 console.log('hello!');
