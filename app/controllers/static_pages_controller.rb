@@ -104,7 +104,7 @@ class StaticPagesController < ApplicationController
         "John Cameron" => {:bio => john_d_bio, :image => 'brothers/john_d.png', :year => "'20"},
         "Michael Ocon Jr" => {:bio => michael_o_bio, :image => 'brothers/michael_o.png', :year => "'20"},
         "Shawn Ahdout" => {:bio => shawn_a_bio, :image => 'brothers/shawn_a.png', :year => "'20", :title => 'Alumni Chair'},
-        "Jack Ackerman" => {:bio => jack_a_bio, :image => 'brothers/jack_a.png', :year => "'20"},
+        "Jack Akerman" => {:bio => jack_a_bio, :image => 'brothers/jack_a.png', :year => "'20"},
         "Jason Ginsberg" => {:bio => jason_g_bio, :image => 'brothers/jason_g.png', :year => "'19"},
         "Ryan Kalili" => {:bio => ryan_k_bio, :image => 'brothers/ryan_k.png', :year => "'20", :title => 'Lieutenant Social Chair'},
         "Max Minshull" => {:bio => max_m_bio, :image => 'brothers/max_m.png', :year => "'20", :title => 'Jewish Life Chair'},
